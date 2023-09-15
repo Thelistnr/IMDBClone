@@ -2,6 +2,7 @@ import{BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import HOME from "./home";
 import NotFound from './NotFound';
 import Movie from './Movie';
+import Footer from './Footer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path='*' element={<NotFound/>}></Route>
           </Routes>
         </div>
+        <Footer/>
       </Router>
       
     </div>
